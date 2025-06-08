@@ -1,3 +1,5 @@
+import './App.css';
+
 function App() {
   return (
     <div className="modal-bg">
@@ -14,7 +16,7 @@ function App() {
             <div className="modal-changelog added">
               <img src={require('./assets/icons/add-circle.svg').default} alt="Added" className="changelog-icon" />
               <div className="changelog-content">
-                <div className="changelog-title">UX-43 Description added by Dan Vornovitskii via WBS Gantt Chart</div>
+                <div class="changelog-title">UX-43 Description added by Dan Vornovitskii via WBS Gantt Chart</div>
                 <div className="changelog-desc">Standardize our product onboarding process.<br /><br />Create an eye-catching and easy-to-understand onboarding experience using interactive demos (arcade) and appealing illustrations designed by BT.<br /><br />Promote all Ricksoft products on every "Get Started" page.</div>
               </div>
             </div>
@@ -22,7 +24,7 @@ function App() {
               <img src={require('./assets/icons/cross-circle.svg').default} alt="Removed" className="changelog-icon" />
               <div className="changelog-content">
                 <div className="changelog-title">UX-43 Assignee removed by Dan Vornovitskii via Jira</div>
-                <div className="changelog-desc">Khairul Danial</div>
+                <div class="changelog-desc">Khairul Danial</div>
               </div>
             </div>
             <div className="modal-changelog changed">
